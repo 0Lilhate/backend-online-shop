@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="authentication-server" />
+        <module name="transaction-service" />
+        <module name="catalog-server" />
+        <module name="order-service" />
+        <module name="eureka-server" />
+        <module name="api-gateway-server" />
+        <module name="notification-service" />
+        <module name="image-service" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="api-gateway-server" target="17" />
+      <module name="authentication-server" target="17" />
+      <module name="catalog-server" target="17" />
+      <module name="eureka-server" target="17" />
+      <module name="gateway-security-server" target="17" />
+      <module name="image-service" target="17" />
+      <module name="notification-service" target="17" />
+      <module name="order-service" target="17" />
+      <module name="security-server" target="17" />
+      <module name="transaction-service" target="17" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="api-gateway-server" options="-parameters" />
+      <module name="authentication-server" options="-parameters" />
+      <module name="catalog-server" options="-parameters" />
+      <module name="eureka-server" options="-parameters" />
+      <module name="gateway-security-server" options="-parameters" />
+      <module name="image-service" options="-parameters" />
+      <module name="notification-service" options="-parameters" />
+      <module name="order-service" options="-parameters" />
+      <module name="security-server" options="-parameters" />
+      <module name="transaction-service" options="-parameters" />
+    </option>
+  </component>
+</project>

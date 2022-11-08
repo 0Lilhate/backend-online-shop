@@ -1,0 +1,6 @@
+domain\Image.class
+domain\Description.class
+domain\Gender.class
+com\example\catalogserver\CatalogServerApplication.class
+domain\Clothe.class
+domain\Size.class

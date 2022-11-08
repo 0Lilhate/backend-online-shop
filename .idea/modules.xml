@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Online-shop.iml" filepath="$PROJECT_DIR$/Online-shop.iml" />
+      <module fileurl="file://$PROJECT_DIR$/api-gateway-server/api-gateway-server.iml" filepath="$PROJECT_DIR$/api-gateway-server/api-gateway-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/authentication-server/authentication-server.iml" filepath="$PROJECT_DIR$/authentication-server/authentication-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/catalog-server/catalog-server.iml" filepath="$PROJECT_DIR$/catalog-server/catalog-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/eureka-server/eureka-server.iml" filepath="$PROJECT_DIR$/eureka-server/eureka-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/image-service/image-service.iml" filepath="$PROJECT_DIR$/image-service/image-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/notification-service/notification-service.iml" filepath="$PROJECT_DIR$/notification-service/notification-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/order-service/order-service.iml" filepath="$PROJECT_DIR$/order-service/order-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/transaction-service/transaction-service.iml" filepath="$PROJECT_DIR$/transaction-service/transaction-service.iml" />
+    </modules>
+  </component>
+</project>
