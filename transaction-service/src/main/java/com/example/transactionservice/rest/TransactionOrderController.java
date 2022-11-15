@@ -1,29 +1,41 @@
 package com.example.transactionservice.rest;
 
-import com.example.transactionservice.service.KafkaService;
+import com.example.transactionservice.service.TransactionServer;
 import com.stripe.model.Charge;
 import lombok.AllArgsConstructor;
+import org.springframework.http.HttpHeaders;
+
+import org.springframework.http.server.reactive.ServerHttpRequest;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
+import reactor.core.publisher.Mono;
 
-import javax.servlet.http.HttpServletRequest;
+
+import java.util.concurrent.CompletableFuture;
 
 @RestController
 @AllArgsConstructor
 public class TransactionOrderController {
 
-    private final KafkaService kafkaService;
+    private final TransactionServer transactionServer;
 
     @PostMapping("/api/charge/{email}")
-    public Charge startTransaction(@PathVariable(name = "email") String email, HttpServletRequest request){
-        String token = request.getHeader("token");
+    public Mono<Charge> startTransaction(@PathVariable(name = "email") String email, ServerHttpRequest request){
+        HttpHeaders httpHeaders = request.getHeaders();
 
-        try {
-            return kafkaService.charge(email,token);
-        } catch (Exception e) {
-            throw new RuntimeException(e);
-        }
+        String token = httpHeaders.get("token").toString();
+
+        CompletableFuture<Charge> future = CompletableFuture.supplyAsync(
+                ()->{
+                    try {
+                        return transactionServer.charge(email,token);
+                    } catch (Exception e) {
+                        throw new RuntimeException(e);
+                    }
+                });
+
+        return Mono.fromFuture(future);
+
     }
 }

@@ -44,6 +44,7 @@ public class OrderServiceImpl implements OrderService{
 
 
     @Override
+    @Transactional
     public Order addNewClothe(String email, ClothOrder clothOrder) {
         Order order = orderRepository.findByEmailUser(email).orElseThrow(()-> new NotFoundException(email));
         order.getClothOrders().add(clothOrder);
@@ -82,6 +83,7 @@ public class OrderServiceImpl implements OrderService{
     }
 
     @Override
+    @Transactional
     public Order addOneQuantityInClothe(String email, String skuCode) {
         Order order = orderRepository.findByEmailUser(email).orElseThrow(()-> new NotFoundException(email));
         order.getClothOrders().forEach(o->{

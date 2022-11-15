@@ -25,7 +25,7 @@ public class OrderRestController {
     private final OrderService orderService;
     private final ConvertClothOrder convertClothOrder;
 
-    @PostMapping(value = "api/order")
+    @PostMapping(value = "/api/order")
     @ResponseStatus(HttpStatus.CREATED)
     public CompletableFuture<Order> placeOrder(@RequestBody OrderDto orderDto){
 
@@ -33,7 +33,7 @@ public class OrderRestController {
         return CompletableFuture.supplyAsync(()-> orderService.placeOrder(convertClothOrder.dtoToOrder(orderDto)));
     }
 
-    @GetMapping(value = "api/order")
+    @GetMapping(value = "/api/order")
     @ResponseStatus(HttpStatus.OK)
     public Flux<OrderDto> getOrder(){
         return Flux.fromIterable(orderService.getAllOrder().stream()
@@ -41,7 +41,7 @@ public class OrderRestController {
     }
 
 
-    @PutMapping(value = "api/order/clothe/add_item/{email}")
+    @PutMapping(value = "/api/order/clothe/add_item/{email}")
     @ResponseStatus(HttpStatus.OK)
     public Mono<OrderDto> addOneQuantityInClotheUser(@PathVariable(name = "email") String email
             , @RequestParam(name = "sku_code") String skuCode){
@@ -55,7 +55,7 @@ public class OrderRestController {
     }
 
 
-    @PutMapping(value = "api/order/clothe/create/{email}")
+    @PutMapping(value = "/api/order/clothe/create/{email}")
     @ResponseStatus(HttpStatus.OK)
     public Mono<OrderDto> addNewClotheInOrder(@PathVariable(name = "email") String email
             , @RequestBody ClothOrderDto clothOrderDto){
@@ -70,7 +70,7 @@ public class OrderRestController {
 
     }
 
-    @PutMapping(value = "api/order/clothe/remove/{email}")
+    @PutMapping(value = "/api/order/clothe/remove/{email}")
     @ResponseStatus(HttpStatus.OK)
     public Mono<OrderDto> removeClotheInUser(@PathVariable(name = "email") String email
             , @RequestParam(name = "sku_code") String skuCode){

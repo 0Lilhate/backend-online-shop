@@ -44,6 +44,7 @@ public class Clothe {
     private Set<Size> size;
 
 
+    @Fetch(FetchMode.JOIN)
     @OneToMany(mappedBy = "clothe", cascade = CascadeType.ALL, fetch = FetchType.LAZY)
 //    @JsonBackReference
     private List<Image> images = new ArrayList<>();

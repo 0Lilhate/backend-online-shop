@@ -1,5 +1,6 @@
 package com.example.catalogserver.domain;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
 import lombok.*;
 
 import javax.persistence.*;
@@ -21,6 +22,7 @@ public class Image{
 
     @ManyToOne
     @JoinColumn(name="clothe_id")
+    @JsonIgnore
     private Clothe clothe;
 
     public Image(String urlImage, Clothe clothe) {

@@ -5,75 +5,30 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="83b669b7-b04c-434f-8e34-d95db470b248" name="Changes" comment="keycloak Second">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_api_client_google_api_client_2_0_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_apis_google_api_services_drive_v3_rev20220815_2_0_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_errorprone_error_prone_annotations_2_11_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_failureaccess_1_0_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_guava_31_1_jre.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_listenablefuture_9999_0_empty_to_avoid_conflict_with_guava.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_http_client_google_http_client_1_42_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_http_client_google_http_client_apache_v2_1_42_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_http_client_google_http_client_gson_1_42_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_j2objc_j2objc_annotations_1_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_oauth_client_google_oauth_client_1_34_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_nimbusds_content_type_2_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_nimbusds_lang_tag_1_6.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_nimbusds_oauth2_oidc_sdk_9_35.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_grpc_grpc_context_1_27_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_opencensus_opencensus_api_0_31_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_opencensus_opencensus_contrib_http_util_0_31_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_checkerframework_checker_qual_3_12_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_oauth2_client_2_7_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_commons_3_1_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_context_3_1_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_loadbalancer_3_1_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_3_1_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_loadbalancer_3_1_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_oauth2_client_5_7_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image-service/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image-service/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image-service/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image-service/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image-service/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image-service/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image-service/src/main/java/com/example/imageservice/ImageServiceApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image-service/src/main/java/com/example/imageservice/config/StorageConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image-service/src/main/java/com/example/imageservice/rest/ImageController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image-service/src/main/java/com/example/imageservice/service/ImageService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image-service/src/main/java/com/example/imageservice/service/ImageServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image-service/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image-service/src/test/java/com/example/imageservice/ImageServiceApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order-service/src/main/java/com/example/orderservice/config/SecurityConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order-service/src/main/java/com/example/orderservice/config/WebClientConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order-service/src/main/java/com/example/orderservice/converter/KeycloakRealmRoleConverter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/transaction-service/src/main/java/com/example/transactionservice/component/OAuth2FeignRequestInterceptor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/transaction-service/src/main/java/com/example/transactionservice/config/SecurityConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/transaction-service/src/main/java/com/example/transactionservice/converter/KeycloakRealmRoleConverter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_api_client_google_api_client_2_0_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_apis_google_api_services_drive_v3_rev20220815_2_0_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_errorprone_error_prone_annotations_2_11_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_failureaccess_1_0_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_guava_31_1_jre.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_listenablefuture_9999_0_empty_to_avoid_conflict_with_guava.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_http_client_google_http_client_1_42_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_http_client_google_http_client_apache_v2_1_42_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_http_client_google_http_client_gson_1_42_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_j2objc_j2objc_annotations_1_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_oauth_client_google_oauth_client_1_34_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_grpc_grpc_context_1_27_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_opencensus_opencensus_api_0_31_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_opencensus_opencensus_contrib_http_util_0_31_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_atteo_evo_inflector_1_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_checkerframework_checker_qual_3_12_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_data_rest_2_7_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_rest_core_3_7_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_rest_hal_browser_3_3_9_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_rest_webmvc_3_7_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_hateoas_spring_hateoas_1_5_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_plugin_spring_plugin_core_2_0_0_RELEASE.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-gateway-server/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/api-gateway-server/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-gateway-server/src/main/java/com/example/apigatewayserver/config/GatewayRotes.java" beforeDir="false" afterPath="$PROJECT_DIR$/api-gateway-server/src/main/java/com/example/apigatewayserver/config/GatewayRotes.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-gateway-server/src/main/java/com/example/apigatewayserver/config/ReactiveWebfluxSecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/api-gateway-server/src/main/java/com/example/apigatewayserver/config/ReactiveWebfluxSecurityConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-gateway-server/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/api-gateway-server/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/catalog-server" beforeDir="false" afterPath="$PROJECT_DIR$/catalog-server" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/catalog-server/src/main/java/com/example/catalogserver/config/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/catalog-server/src/main/java/com/example/catalogserver/config/SecurityConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/catalog-server/src/main/java/com/example/catalogserver/converter/KeycloakRealmRoleConverter.java" beforeDir="false" afterPath="$PROJECT_DIR$/catalog-server/src/main/java/com/example/catalogserver/converter/RealmRoleConverter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/catalog-server/src/main/java/com/example/catalogserver/domain/Clothe.java" beforeDir="false" afterPath="$PROJECT_DIR$/catalog-server/src/main/java/com/example/catalogserver/domain/Clothe.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/catalog-server/src/main/java/com/example/catalogserver/domain/Description.java" beforeDir="false" afterPath="$PROJECT_DIR$/catalog-server/src/main/java/com/example/catalogserver/domain/Description.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/catalog-server/src/main/java/com/example/catalogserver/domain/Image.java" beforeDir="false" afterPath="$PROJECT_DIR$/catalog-server/src/main/java/com/example/catalogserver/domain/Image.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/catalog-server/src/main/java/com/example/catalogserver/rest/ClotheRestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/catalog-server/src/main/java/com/example/catalogserver/rest/ClotheRestController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/catalog-server/src/main/java/com/example/catalogserver/service/CatalogServiceWeb.java" beforeDir="false" afterPath="$PROJECT_DIR$/catalog-server/src/main/java/com/example/catalogserver/service/CatalogServiceWeb.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/order-service" beforeDir="false" afterPath="$PROJECT_DIR$/order-service" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/order-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/order-service/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/order-service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/order-service/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/transaction-service" beforeDir="false" afterPath="$PROJECT_DIR$/transaction-service" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/transaction-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/transaction-service/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/transaction-service/src/main/java/com/example/transactionservice/rest/TransactionOrderController.java" beforeDir="false" afterPath="$PROJECT_DIR$/transaction-service/src/main/java/com/example/transactionservice/rest/TransactionOrderController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/transaction-service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/transaction-service/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -88,14 +43,31 @@
         <option value="com.haulmont.jpb.NewClass" />
         <option value="Interface" />
         <option value="Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/image-service" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HttpClientSelectedEnvironments">
     <file url="jar://$APPLICATION_HOME_DIR$/plugins/restClient/lib/restClient.jar!/com/intellij/ws/rest/client/requests/collection/get-requests.http" environment="test" />
+  </component>
+  <component name="JpbToolWindowState">
+    <option name="myId2FirstActivated">
+      <map>
+        <entry key="com.haulmont.jpb.jpaInspector" value="true" />
+        <entry key="com.haulmont.jpb.jpaPalette" value="true" />
+        <entry key="com.haulmont.jpb.jpaStructure" value="true" />
+      </map>
+    </option>
+    <option name="myId2Visible">
+      <map>
+        <entry key="com.haulmont.jpb.jpaInspector" value="false" />
+        <entry key="com.haulmont.jpb.jpaPalette" value="false" />
+        <entry key="com.haulmont.jpb.jpaStructure" value="false" />
+      </map>
+    </option>
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -126,6 +98,8 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
     &quot;jdk.selected.JAVA_MODULE&quot;: &quot;corretto-17&quot;,
     &quot;last_opened_file_path&quot;: &quot;C:/D/lesson/Spring/Homework/Online-shop&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
@@ -133,8 +107,11 @@
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;File.Encoding&quot;,
-    &quot;spring.configuration.checksum&quot;: &quot;ca722575ba16a6cbe9de5d5f119ca1c4&quot;
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.DirectoryMappings&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;85a16dc2c6c1355a12826573d26d295d&quot;
   },
   &quot;keyToStringList&quot;: {
     &quot;DatabaseDriversLRU&quot;: [
@@ -150,18 +127,28 @@
       <recent name="domain" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\D\lesson\Spring\Homework\Online-shop\backend-keyclock-auth" />
-      <recent name="C:\D\lesson\Spring\Homework\Online-shop\authentication-server\src\main\java\com\example\authenticationserver\config" />
-      <recent name="C:\D\lesson\Spring\Homework\Online-shop\authentication-server\src\main\java\com\example\authenticationserver" />
-      <recent name="C:\D\lesson\Spring\Homework\Online-shop\notification-service\src\main\java\com\example\notificationservice" />
-      <recent name="C:\D\lesson\Spring\Homework\Online-shop\transaction-service\src\main\java\com\example\transactionservice" />
+      <recent name="C:\D\lesson\Spring\Homework\Online-shop\order-service\src\test\resources" />
+      <recent name="C:\D\lesson\Spring\Homework\Online-shop\order-service\src\test\java" />
+      <recent name="C:\D\lesson\Spring\Homework\Online-shop\order-service\src\test\java\com\example\orderservice" />
+      <recent name="C:\D\lesson\Spring\Homework\Online-shop\catalog-server\src\main\java\com\example\catalogserver\config" />
+      <recent name="C:\D\lesson\Spring\Homework\Online-shop\image-service\src\main\java\com\example\imageservice\config" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\D\lesson\Spring\Homework\Online-shop\order-service\src\test\java" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.example.orderservice.service" />
+      <recent name="com.example.orderservice.rest" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.example.imageservice.config" />
+      <recent name="com.example.imageservice.common" />
       <recent name="com.example.transactionservice.converter" />
       <recent name="com.example.orderservice.converter" />
       <recent name="com.example.apigatewayserver.config" />
-      <recent name="com.example.catalogserver.config" />
-      <recent name="com.example.notificationservice.model" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -171,7 +158,85 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.ApiGatewayServerApplication">
+  <component name="RunManager" selected="JUnit.OrderServiceImplTest.addNewClothe">
+    <configuration name="ConvertClothOrderTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="order-service" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.orderservice.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.orderservice.service" />
+      <option name="MAIN_CLASS_NAME" value="com.example.orderservice.service.ConvertClothOrderTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OrderServiceImplTest.addNewClothe" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="order-service" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.orderservice.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.orderservice.service" />
+      <option name="MAIN_CLASS_NAME" value="com.example.orderservice.service.OrderServiceImplTest" />
+      <option name="METHOD_NAME" value="addNewClothe" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OrderServiceImplTest.placeOrderWhenTheObjectWasNotFound" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="order-service" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.orderservice.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.orderservice.service" />
+      <option name="MAIN_CLASS_NAME" value="com.example.orderservice.service.OrderServiceImplTest" />
+      <option name="METHOD_NAME" value="placeOrderWhenTheObjectWasNotFound" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PaymentResourceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="order-service" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.orderservice.rest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.orderservice.rest" />
+      <option name="MAIN_CLASS_NAME" value="com.example.orderservice.rest.PaymentResourceTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PaymentResourceTest.makePayment" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="order-service" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.orderservice.rest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.orderservice.rest" />
+      <option name="MAIN_CLASS_NAME" value="com.example.orderservice.rest.PaymentResourceTest" />
+      <option name="METHOD_NAME" value="makePayment" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ApiGatewayServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="api-gateway-server" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.apigatewayserver.ApiGatewayServerApplication" />
@@ -243,20 +308,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="order-service: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="Docker">
-      <deployment type="docker-compose.yml">
-        <settings>
-          <option name="sourceFilePath" value="order-service/docker-compose.yml" />
-        </settings>
-      </deployment>
-      <method v="2" />
-    </configuration>
     <list>
-      <item itemvalue="Docker.order-service: Compose Deployment" />
+      <item itemvalue="JUnit.OrderServiceImplTest.addNewClothe" />
+      <item itemvalue="JUnit.OrderServiceImplTest.placeOrderWhenTheObjectWasNotFound" />
+      <item itemvalue="JUnit.ConvertClothOrderTest" />
+      <item itemvalue="JUnit.PaymentResourceTest" />
+      <item itemvalue="JUnit.PaymentResourceTest.makePayment" />
+      <item itemvalue="Spring Boot.OrderServiceApplication" />
       <item itemvalue="Spring Boot.ImageServiceApplication" />
       <item itemvalue="Spring Boot.AuthenticationServerApplication" />
       <item itemvalue="Spring Boot.ApiGatewayServerApplication" />
-      <item itemvalue="Spring Boot.OrderServiceApplication" />
       <item itemvalue="Spring Boot.NotificationServiceApplication" />
       <item itemvalue="Spring Boot.TransactionServiceApplication" />
       <item itemvalue="Spring Boot.GatewaySecurityServerApplication" />
@@ -266,7 +327,11 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Docker.order-service: Compose Deployment" />
+        <item itemvalue="JUnit.OrderServiceImplTest.addNewClothe" />
+        <item itemvalue="JUnit.OrderServiceImplTest.placeOrderWhenTheObjectWasNotFound" />
+        <item itemvalue="JUnit.PaymentResourceTest" />
+        <item itemvalue="JUnit.PaymentResourceTest.makePayment" />
+        <item itemvalue="JUnit.ConvertClothOrderTest" />
       </list>
     </recent_temporary>
   </component>
@@ -300,7 +365,16 @@
       <workItem from="1667568396774" duration="13043000" />
       <workItem from="1667656779166" duration="13813000" />
       <workItem from="1667912509138" duration="3566000" />
-      <workItem from="1667916874060" duration="8015000" />
+      <workItem from="1667916874060" duration="8637000" />
+      <workItem from="1668007856726" duration="11388000" />
+      <workItem from="1668090042206" duration="11541000" />
+      <workItem from="1668251106507" duration="27058000" />
+      <workItem from="1668346337507" duration="3307000" />
+      <workItem from="1668361810766" duration="442000" />
+      <workItem from="1668363590763" duration="2456000" />
+      <workItem from="1668417210558" duration="1862000" />
+      <workItem from="1668498173777" duration="4724000" />
+      <workItem from="1668525830097" duration="4252000" />
     </task>
     <task id="LOCAL-00001" summary="kafka first">
       <created>1667063754248</created>
@@ -369,7 +443,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/order-service/src/main/java/com/example/orderservice/service/OrderServiceImpl.java</url>
-          <line>86</line>
+          <line>88</line>
           <option name="timeStamp" value="2" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
@@ -379,7 +453,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/order-service/src/main/java/com/example/orderservice/service/OrderServiceImpl.java</url>
-          <line>48</line>
+          <line>49</line>
           <option name="timeStamp" value="5" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
@@ -393,29 +467,84 @@
           <option name="timeStamp" value="8" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/transaction-service/src/main/java/com/example/transactionservice/service/KafkaServiceImpl.java</url>
-          <line>30</line>
-          <option name="timeStamp" value="9" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/transaction-service/src/main/java/com/example/transactionservice/rest/TransactionOrderController.java</url>
-          <line>20</line>
-          <option name="timeStamp" value="11" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/catalog-server/src/main/java/com/example/catalogserver/rest/ClotheRestController.java</url>
-          <line>33</line>
+          <line>66</line>
           <option name="timeStamp" value="16" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/catalog-server/src/main/java/com/example/catalogserver/rest/ClotheRestController.java</url>
-          <line>25</line>
+          <line>28</line>
           <option name="timeStamp" value="17" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/catalog-server/src/main/java/com/example/catalogserver/service/CatalogServiceWeb.java</url>
-          <line>35</line>
+          <line>44</line>
           <option name="timeStamp" value="18" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/catalog-server/src/main/java/com/example/catalogserver/service/CatalogServiceWeb.java</url>
+          <line>121</line>
+          <option name="timeStamp" value="19" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/catalog-server/src/main/java/com/example/catalogserver/rest/ClotheRestController.java</url>
+          <line>82</line>
+          <option name="timeStamp" value="21" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/image-service/src/main/java/com/example/imageservice/rest/ImageController.java</url>
+          <line>20</line>
+          <option name="timeStamp" value="22" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/image-service/src/main/java/com/example/imageservice/service/ImageServiceImpl.java</url>
+          <line>33</line>
+          <option name="timeStamp" value="27" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/catalog-server/src/main/java/com/example/catalogserver/service/CatalogServiceWeb.java</url>
+          <line>139</line>
+          <option name="timeStamp" value="28" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/image-service/src/main/java/com/example/imageservice/service/ImageServiceImpl.java</url>
+          <line>53</line>
+          <option name="timeStamp" value="32" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/image-service/src/main/java/com/example/imageservice/service/ImageServiceImpl.java</url>
+          <line>68</line>
+          <option name="timeStamp" value="35" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/catalog-server/src/main/java/com/example/catalogserver/service/CatalogServiceWeb.java</url>
+          <line>160</line>
+          <option name="timeStamp" value="37" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/transaction-service/src/main/java/com/example/transactionservice/service/TransactionServerImpl.java</url>
+          <line>39</line>
+          <option name="timeStamp" value="38" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/order-service/src/test/java/com/example/orderservice/rest/OrderRestControllerTest.java</url>
+          <line>107</line>
+          <option name="timeStamp" value="39" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/transaction-service/src/main/java/com/example/transactionservice/rest/TransactionOrderController.java</url>
+          <line>24</line>
+          <option name="timeStamp" value="43" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/order-service/src/test/java/com/example/orderservice/service/ConvertClothOrderTest.java</url>
+          <line>66</line>
+          <option name="timeStamp" value="46" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/order-service/src/test/java/com/example/orderservice/service/OrderServiceImplTest.java</url>
+          <line>91</line>
+          <option name="timeStamp" value="47" />
         </line-breakpoint>
         <breakpoint enabled="true" type="java-exception">
           <properties class="java.net.UnknownHostException" package="java.net" />
@@ -427,6 +556,7 @@
       <configuration name="SpringBootApplicationConfigurationType">
         <watch expression="order.clothOrders" />
         <watch expression="http" />
+        <watch expression="clothe" />
       </configuration>
     </watches-manager>
   </component>

@@ -1,12 +1,13 @@
 package com.example.imageservice.service;
 
-import org.springframework.core.io.ByteArrayResource;
 import org.springframework.web.multipart.MultipartFile;
 
-public interface ImageService {
-    String uploadFile(MultipartFile file);
-    ByteArrayResource downloadFile(String fileName);
+import java.io.IOException;
 
-    String deleteFile(String fileName);
+public interface ImageService {
+    String uploadFile(MultipartFile file, Long id) throws IOException;
+    byte[] downloadFile(String fileName, Long id) throws IOException;
+
+    String deleteFile(Long id,String fileName);
 
 }

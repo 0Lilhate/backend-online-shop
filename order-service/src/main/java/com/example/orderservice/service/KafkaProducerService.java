@@ -4,5 +4,5 @@ import com.example.orderservice.domain.Order;
 
 public interface KafkaProducerService {
     public Order transactionTopic(String email);
-    Void sendNotificationService();
+
 }

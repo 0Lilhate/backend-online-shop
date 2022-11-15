@@ -1,5 +1,6 @@
 package com.example.catalogserver.service;
 
+
 import com.example.catalogserver.domain.Clothe;
 import com.example.catalogserver.domain.Image;
 import com.example.catalogserver.domain.Size;
@@ -7,21 +8,29 @@ import com.example.catalogserver.repository.clothe.ClotheRepository;
 import com.example.catalogserver.repository.description.DescriptionRepository;
 import com.example.catalogserver.repository.image.ImageRepository;
 import com.example.catalogserver.repository.size.SizeRepository;
-import lombok.AllArgsConstructor;
+
+import lombok.RequiredArgsConstructor;
+
+import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
+import java.io.IOException;
 import java.util.*;
+import java.util.concurrent.atomic.AtomicBoolean;
 import java.util.stream.Collectors;
 
 @Service
-@AllArgsConstructor
+@RequiredArgsConstructor
+@Slf4j
 public class CatalogServiceWeb implements CatalogService{
     private final ClotheRepository clotheRepository;
     private final SizeRepository sizeRepository;
 
     private final DescriptionRepository descriptionRepository;
     private final ImageRepository imageRepository;
+
+
 
 
     @Override
@@ -94,6 +103,83 @@ public class CatalogServiceWeb implements CatalogService{
 
 
         return clotheRepository.save(findClothe);
+    }
+
+    @Override
+    public List<Clothe> getAllClothe() {
+//        return clotheRepository.findAllClothe();
+        return clotheRepository.findAll();
+//        return null;
+    }
+
+    @Override
+    public void deleteClotheById(Long id) {
+        clotheRepository.deleteById(id);
+    }
+
+    @Override
+    public void deleteClothe(Clothe clothe) {
+        clotheRepository.delete(clothe);
+    }
+
+    @Override
+    public Clothe getByIdClothe(Long id) {
+        return clotheRepository.findById(id).orElseThrow(()-> new NoSuchElementException());
+    }
+
+    @Transactional
+    @Override
+    public Clothe addToClotheImage(Long id, String fileName) throws IOException {
+        Clothe clothe = clotheRepository.findById(id).orElseThrow(()->new NoSuchElementException());
+
+
+        Image image = new Image(fileName);
+        image.setClothe(clothe);
+        imageRepository.save(image);
+
+        clothe.getImages().add(image);
+
+        log.info("File {} save", fileName);
+        return clotheRepository.save(clothe);
+    }
+
+    @Override
+    public String getImageNameByIdClothe(Long id, String fileName) {
+        Clothe clothe = clotheRepository.findById(id).orElseThrow(()->new NoSuchElementException());
+        for (Image tempImage: clothe.getImages()){
+            if(tempImage.getUrlImage().equals(fileName)){
+                return tempImage.getUrlImage();
+            }
+        }
+        return "";
+    }
+
+    @Transactional
+    @Override
+    public String deleteImageNameByIdClothe(Long id, String fileName) {
+        Clothe clothe = clotheRepository.findById(id).orElseThrow(()->new NoSuchElementException());
+        Boolean keyDelete = false;
+
+
+        Iterator<Image> imageIterator = clothe.getImages().iterator();
+        while (imageIterator.hasNext()){
+            Image imageNext = imageIterator.next();
+            if (imageNext.getUrlImage().equals(fileName)){
+                imageRepository.delete(imageNext);
+                keyDelete = true;
+                imageIterator.remove();
+            }
+        }
+
+        if(keyDelete){
+
+            clotheRepository.save(clothe);
+            return fileName;
+        }else {
+            return null;
+        }
+
+
     }
 
 
