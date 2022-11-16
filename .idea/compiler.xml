@@ -7,7 +7,6 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="authentication-server" />
         <module name="transaction-service" />
         <module name="catalog-server" />
         <module name="order-service" />

@@ -9,7 +9,6 @@
         <option value="$PROJECT_DIR$/transaction-service/pom.xml" />
         <option value="$PROJECT_DIR$/notification-service/pom.xml" />
         <option value="$PROJECT_DIR$/api-gateway-server/pom.xml" />
-        <option value="$PROJECT_DIR$/authentication-server/pom.xml" />
         <option value="$PROJECT_DIR$/image-service/pom.xml" />
       </list>
     </option>

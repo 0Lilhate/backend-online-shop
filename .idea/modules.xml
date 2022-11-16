@@ -4,7 +4,6 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Online-shop.iml" filepath="$PROJECT_DIR$/Online-shop.iml" />
       <module fileurl="file://$PROJECT_DIR$/api-gateway-server/api-gateway-server.iml" filepath="$PROJECT_DIR$/api-gateway-server/api-gateway-server.iml" />
-      <module fileurl="file://$PROJECT_DIR$/authentication-server/authentication-server.iml" filepath="$PROJECT_DIR$/authentication-server/authentication-server.iml" />
       <module fileurl="file://$PROJECT_DIR$/catalog-server/catalog-server.iml" filepath="$PROJECT_DIR$/catalog-server/catalog-server.iml" />
       <module fileurl="file://$PROJECT_DIR$/eureka-server/eureka-server.iml" filepath="$PROJECT_DIR$/eureka-server/eureka-server.iml" />
       <module fileurl="file://$PROJECT_DIR$/image-service/image-service.iml" filepath="$PROJECT_DIR$/image-service/image-service.iml" />
