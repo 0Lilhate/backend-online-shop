@@ -1,4 +1,4 @@
-package com.example.transactionservice.component;
+package com.example.imageservice.component;
 
 import feign.RequestInterceptor;
 import feign.RequestTemplate;

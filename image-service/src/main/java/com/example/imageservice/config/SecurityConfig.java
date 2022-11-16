@@ -1,17 +1,15 @@
-package com.example.catalogserver.config;
+package com.example.imageservice.config;
 
 
-import com.example.catalogserver.converter.RealmRoleConverter;
 
+import com.example.imageservice.converter.RealmRoleConverter;
 import org.springframework.core.convert.converter.Converter;
 import org.springframework.http.HttpMethod;
 import org.springframework.security.authentication.AbstractAuthenticationToken;
-
 import org.springframework.security.config.annotation.web.builders.HttpSecurity;
 import org.springframework.security.config.annotation.web.configuration.EnableWebSecurity;
 import org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter;
 import org.springframework.security.oauth2.jwt.Jwt;
-
 import org.springframework.security.oauth2.server.resource.authentication.JwtAuthenticationConverter;
 
 
@@ -24,8 +22,8 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
     protected void configure(HttpSecurity http) throws Exception {
         http
                 .authorizeRequests()
-                .antMatchers( "/clothe/**").hasAnyRole( "admin", "manager")
-                .antMatchers(HttpMethod.GET, "/clothe/**").hasAnyRole("user")
+                .antMatchers( "/file/**").hasAnyRole( "admin", "manager")
+                .antMatchers(HttpMethod.GET, "/file/**").hasAnyRole("user")
                 .anyRequest().authenticated()
                 .and()
                 .cors()

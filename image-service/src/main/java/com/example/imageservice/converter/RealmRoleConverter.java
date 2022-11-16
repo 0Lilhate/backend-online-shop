@@ -1,4 +1,4 @@
-package com.example.transactionservice.converter;
+package com.example.imageservice.converter;
 
 import org.springframework.core.convert.converter.Converter;
 import org.springframework.security.core.GrantedAuthority;
@@ -10,7 +10,7 @@ import java.util.List;
 import java.util.Map;
 import java.util.stream.Collectors;
 
-public class KeycloakRealmRoleConverter implements Converter<Jwt, Collection<GrantedAuthority>> {
+public class RealmRoleConverter implements Converter<Jwt, Collection<GrantedAuthority>> {
     @Override
     public Collection<GrantedAuthority> convert(Jwt jwt) {
         final Map<String, Object> realmAccess = (Map<String, Object>) jwt.getClaims().get("realm_access");

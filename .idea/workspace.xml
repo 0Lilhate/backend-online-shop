@@ -5,7 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="83b669b7-b04c-434f-8e34-d95db470b248" name="Changes" comment="keycloak Second">
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_stripe_stripe_java_21_12_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_stripe_stripe_java_21_14_0.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -79,7 +78,7 @@
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
     "jdk.selected.JAVA_MODULE": "corretto-17",
-    "last_opened_file_path": "C:/D/lesson/Spring/Homework/Online-shop",
+    "last_opened_file_path": "C:/D/lesson/Spring/Homework/Online-shop/image-service/src/main/java/com/example/imageservice",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -105,11 +104,11 @@
       <recent name="domain" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\D\lesson\Spring\Homework\Online-shop\image-service\src\main\java\com\example\imageservice" />
       <recent name="C:\D\lesson\Spring\Homework\Online-shop\transaction-service\src\test\resources" />
       <recent name="C:\D\lesson\Spring\Homework\Online-shop\transaction-service\src\test" />
       <recent name="C:\D\lesson\Spring\Homework\Online-shop\order-service\src\test\resources" />
       <recent name="C:\D\lesson\Spring\Homework\Online-shop\order-service\src\test\java" />
-      <recent name="C:\D\lesson\Spring\Homework\Online-shop\order-service\src\test\java\com\example\orderservice" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
@@ -356,7 +355,7 @@
       <workItem from="1668417210558" duration="1862000" />
       <workItem from="1668498173777" duration="4724000" />
       <workItem from="1668525830097" duration="14356000" />
-      <workItem from="1668606100560" duration="12671000" />
+      <workItem from="1668606100560" duration="13438000" />
     </task>
     <task id="LOCAL-00001" summary="kafka first">
       <created>1667063754248</created>
