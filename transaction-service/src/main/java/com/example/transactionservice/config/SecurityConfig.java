@@ -1,6 +1,7 @@
 package com.example.transactionservice.config;
 
 import com.example.transactionservice.converter.KeycloakRealmRoleConverter;
+import org.springframework.context.annotation.Bean;
 import org.springframework.core.convert.converter.Converter;
 import org.springframework.http.server.ServerHttpRequest;
 import org.springframework.security.authentication.AbstractAuthenticationToken;
@@ -18,6 +19,7 @@ import reactor.core.publisher.Mono;
 
 @EnableWebFluxSecurity
 public class SecurityConfig {
+
 
 
     public SecurityWebFilterChain configure(ServerHttpSecurity http) throws Exception {

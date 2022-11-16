@@ -1,0 +1,35 @@
+version: '3'
+
+services:
+  app:
+    image: catalog-server
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: catalog-server
+    ports:
+      - "8180:8180"
+    depends_on:
+      - db
+    environment:
+      - DB_DRIVER=org.postgresql.Driver
+      - DB_URL=jdbc:postgresql://postgres:5432/ClothesDB
+      - DB_USERNAME=postgres
+      - DB_PASSWORD=westa852
+      - WAIT_FOR=postgres:5432
+      - SPRING_JPA_HIBERNATE_DDL_AUTO=validate
+    networks:
+      - nw
+  db:
+    image: postgres
+    ports:
+      - "5001:5432"
+    container_name: clotheDB
+    environment:
+      - POSTGRES_USER=postgres
+      - POSTGRES_PASSWORD=westa852
+      - POSTGRES_DB=ClothesDB
+    networks:
+      - nw
+networks:
+  nw:
