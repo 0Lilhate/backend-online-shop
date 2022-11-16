@@ -5,29 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="83b669b7-b04c-434f-8e34-d95db470b248" name="Changes" comment="keycloak Second">
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_api_client_google_api_client_2_0_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_apis_google_api_services_drive_v3_rev20220815_2_0_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_errorprone_error_prone_annotations_2_11_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_failureaccess_1_0_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_guava_31_1_jre.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_listenablefuture_9999_0_empty_to_avoid_conflict_with_guava.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_http_client_google_http_client_1_42_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_http_client_google_http_client_apache_v2_1_42_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_http_client_google_http_client_gson_1_42_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_j2objc_j2objc_annotations_1_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_oauth_client_google_oauth_client_1_34_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_grpc_grpc_context_1_27_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_opencensus_opencensus_api_0_31_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_opencensus_opencensus_contrib_http_util_0_31_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_atteo_evo_inflector_1_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_checkerframework_checker_qual_3_12_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_data_rest_2_7_5.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_rest_core_3_7_5.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_rest_hal_browser_3_3_9_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_rest_webmvc_3_7_5.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_hateoas_spring_hateoas_1_5_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_plugin_spring_plugin_core_2_0_0_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_stripe_stripe_java_21_12_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_stripe_stripe_java_21_14_0.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -87,38 +65,38 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
-    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
-    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
-    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
-    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;corretto-17&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/D/lesson/Spring/Homework/Online-shop&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.DirectoryMappings&quot;,
-    &quot;spring.configuration.checksum&quot;: &quot;85a16dc2c6c1355a12826573d26d295d&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "jdk.selected.JAVA_MODULE": "corretto-17",
+    "last_opened_file_path": "C:/D/lesson/Spring/Homework/Online-shop",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "spring.configuration.checksum": "85a16dc2c6c1355a12826573d26d295d"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;DatabaseDriversLRU&quot;: [
-      &quot;postgresql&quot;
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "postgresql"
     ]
   }
-}</component>
+}]]></component>
   <component name="ReactorSettings">
     <option name="notificationShown" value="true" />
   </component>
@@ -127,11 +105,11 @@
       <recent name="domain" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\D\lesson\Spring\Homework\Online-shop\transaction-service\src\test\resources" />
+      <recent name="C:\D\lesson\Spring\Homework\Online-shop\transaction-service\src\test" />
       <recent name="C:\D\lesson\Spring\Homework\Online-shop\order-service\src\test\resources" />
       <recent name="C:\D\lesson\Spring\Homework\Online-shop\order-service\src\test\java" />
       <recent name="C:\D\lesson\Spring\Homework\Online-shop\order-service\src\test\java\com\example\orderservice" />
-      <recent name="C:\D\lesson\Spring\Homework\Online-shop\catalog-server\src\main\java\com\example\catalogserver\config" />
-      <recent name="C:\D\lesson\Spring\Homework\Online-shop\image-service\src\main\java\com\example\imageservice\config" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
@@ -140,15 +118,18 @@
       <recent name="C:\D\lesson\Spring\Homework\Online-shop\order-service\src\test\java" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.example.notificationservice.service" />
+      <recent name="com.example.transactionservice.feign" />
+      <recent name="com.example.transactionservice.service" />
       <recent name="com.example.orderservice.service" />
       <recent name="com.example.orderservice.rest" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.example.transactionservice.service" />
       <recent name="com.example.imageservice.config" />
       <recent name="com.example.imageservice.common" />
       <recent name="com.example.transactionservice.converter" />
       <recent name="com.example.orderservice.converter" />
-      <recent name="com.example.apigatewayserver.config" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -158,80 +139,80 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.OrderServiceImplTest.addNewClothe">
-    <configuration name="ConvertClothOrderTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="order-service" />
+  <component name="RunManager" selected="JUnit.EmailSenderServiceImplTest.sendEmailMessage">
+    <configuration name="EmailSenderServiceImplTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="notification-service" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.example.orderservice.service.*" />
+          <option name="PATTERN" value="com.example.notificationservice.service.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.example.orderservice.service" />
-      <option name="MAIN_CLASS_NAME" value="com.example.orderservice.service.ConvertClothOrderTest" />
+      <option name="PACKAGE_NAME" value="com.example.notificationservice.service" />
+      <option name="MAIN_CLASS_NAME" value="com.example.notificationservice.service.EmailSenderServiceImplTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OrderServiceImplTest.addNewClothe" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="order-service" />
+    <configuration name="EmailSenderServiceImplTest.sendEmailMessage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="notification-service" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.example.orderservice.service.*" />
+          <option name="PATTERN" value="com.example.notificationservice.service.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.example.orderservice.service" />
-      <option name="MAIN_CLASS_NAME" value="com.example.orderservice.service.OrderServiceImplTest" />
-      <option name="METHOD_NAME" value="addNewClothe" />
+      <option name="PACKAGE_NAME" value="com.example.notificationservice.service" />
+      <option name="MAIN_CLASS_NAME" value="com.example.notificationservice.service.EmailSenderServiceImplTest" />
+      <option name="METHOD_NAME" value="sendEmailMessage" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OrderServiceImplTest.placeOrderWhenTheObjectWasNotFound" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="order-service" />
+    <configuration name="OrderTransactionClientTest.getOrderInTransaction" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="transaction-service" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.example.orderservice.service.*" />
+          <option name="PATTERN" value="com.example.transactionservice.feign.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.example.orderservice.service" />
-      <option name="MAIN_CLASS_NAME" value="com.example.orderservice.service.OrderServiceImplTest" />
-      <option name="METHOD_NAME" value="placeOrderWhenTheObjectWasNotFound" />
+      <option name="PACKAGE_NAME" value="com.example.transactionservice.feign" />
+      <option name="MAIN_CLASS_NAME" value="com.example.transactionservice.feign.OrderTransactionClientTest" />
+      <option name="METHOD_NAME" value="getOrderInTransaction" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PaymentResourceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="order-service" />
+    <configuration name="TransactionServerImplTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="transaction-service" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.example.orderservice.rest.*" />
+          <option name="PATTERN" value="com.example.transactionservice.service.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.example.orderservice.rest" />
-      <option name="MAIN_CLASS_NAME" value="com.example.orderservice.rest.PaymentResourceTest" />
+      <option name="PACKAGE_NAME" value="com.example.transactionservice.service" />
+      <option name="MAIN_CLASS_NAME" value="com.example.transactionservice.service.TransactionServerImplTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PaymentResourceTest.makePayment" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="order-service" />
+    <configuration name="TransactionServerImplTest.charge" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="transaction-service" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.example.orderservice.rest.*" />
+          <option name="PATTERN" value="com.example.transactionservice.service.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.example.orderservice.rest" />
-      <option name="MAIN_CLASS_NAME" value="com.example.orderservice.rest.PaymentResourceTest" />
-      <option name="METHOD_NAME" value="makePayment" />
+      <option name="PACKAGE_NAME" value="com.example.transactionservice.service" />
+      <option name="MAIN_CLASS_NAME" value="com.example.transactionservice.service.TransactionServerImplTest" />
+      <option name="METHOD_NAME" value="charge" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -309,11 +290,11 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.OrderServiceImplTest.addNewClothe" />
-      <item itemvalue="JUnit.OrderServiceImplTest.placeOrderWhenTheObjectWasNotFound" />
-      <item itemvalue="JUnit.ConvertClothOrderTest" />
-      <item itemvalue="JUnit.PaymentResourceTest" />
-      <item itemvalue="JUnit.PaymentResourceTest.makePayment" />
+      <item itemvalue="JUnit.EmailSenderServiceImplTest" />
+      <item itemvalue="JUnit.EmailSenderServiceImplTest.sendEmailMessage" />
+      <item itemvalue="JUnit.OrderTransactionClientTest.getOrderInTransaction" />
+      <item itemvalue="JUnit.TransactionServerImplTest.charge" />
+      <item itemvalue="JUnit.TransactionServerImplTest" />
       <item itemvalue="Spring Boot.OrderServiceApplication" />
       <item itemvalue="Spring Boot.ImageServiceApplication" />
       <item itemvalue="Spring Boot.AuthenticationServerApplication" />
@@ -327,11 +308,11 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.OrderServiceImplTest.addNewClothe" />
-        <item itemvalue="JUnit.OrderServiceImplTest.placeOrderWhenTheObjectWasNotFound" />
-        <item itemvalue="JUnit.PaymentResourceTest" />
-        <item itemvalue="JUnit.PaymentResourceTest.makePayment" />
-        <item itemvalue="JUnit.ConvertClothOrderTest" />
+        <item itemvalue="JUnit.EmailSenderServiceImplTest.sendEmailMessage" />
+        <item itemvalue="JUnit.EmailSenderServiceImplTest" />
+        <item itemvalue="JUnit.TransactionServerImplTest" />
+        <item itemvalue="JUnit.TransactionServerImplTest.charge" />
+        <item itemvalue="JUnit.OrderTransactionClientTest.getOrderInTransaction" />
       </list>
     </recent_temporary>
   </component>
@@ -374,7 +355,8 @@
       <workItem from="1668363590763" duration="2456000" />
       <workItem from="1668417210558" duration="1862000" />
       <workItem from="1668498173777" duration="4724000" />
-      <workItem from="1668525830097" duration="4252000" />
+      <workItem from="1668525830097" duration="14356000" />
+      <workItem from="1668606100560" duration="12671000" />
     </task>
     <task id="LOCAL-00001" summary="kafka first">
       <created>1667063754248</created>
@@ -448,7 +430,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/order-service/src/main/java/com/example/orderservice/rest/OrderRestController.java</url>
-          <line>62</line>
+          <line>58</line>
           <option name="timeStamp" value="3" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
@@ -458,7 +440,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/order-service/src/main/java/com/example/orderservice/rest/OrderRestController.java</url>
-          <line>48</line>
+          <line>44</line>
           <option name="timeStamp" value="6" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
@@ -545,6 +527,21 @@
           <url>file://$PROJECT_DIR$/order-service/src/test/java/com/example/orderservice/service/OrderServiceImplTest.java</url>
           <line>91</line>
           <option name="timeStamp" value="47" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/transaction-service/src/main/java/com/example/transactionservice/service/TransactionServerImpl.java</url>
+          <line>45</line>
+          <option name="timeStamp" value="53" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/transaction-service/src/test/java/com/example/transactionservice/service/TransactionServerImplTest.java</url>
+          <line>96</line>
+          <option name="timeStamp" value="56" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/notification-service/src/main/java/com/example/notificationservice/service/EmailSenderServiceImpl.java</url>
+          <line>41</line>
+          <option name="timeStamp" value="60" />
         </line-breakpoint>
         <breakpoint enabled="true" type="java-exception">
           <properties class="java.net.UnknownHostException" package="java.net" />

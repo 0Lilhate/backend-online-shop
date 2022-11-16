@@ -1,21 +1,17 @@
 package com.example.orderservice.rest;
 
-import com.example.orderservice.domain.ClothOrder;
 import com.example.orderservice.domain.Order;
 import com.example.orderservice.rest.dto.ClothOrderDto;
 import com.example.orderservice.rest.dto.OrderDto;
 import com.example.orderservice.service.ConvertClothOrder;
-import com.example.orderservice.service.KafkaProducerService;
 import com.example.orderservice.service.OrderService;
 import lombok.AllArgsConstructor;
 import org.springframework.http.HttpStatus;
-import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 import reactor.core.publisher.Flux;
 import reactor.core.publisher.Mono;
 
 import java.util.concurrent.CompletableFuture;
-import java.util.stream.Collectors;
 
 @RestController
 @CrossOrigin

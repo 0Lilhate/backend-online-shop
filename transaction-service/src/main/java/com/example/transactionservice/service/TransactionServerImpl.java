@@ -39,7 +39,7 @@ public class TransactionServerImpl implements TransactionServer {
 
         if(token!=null){
             charge = stripeClient.chargeNewCard(token,
-                    amount * Long.getLong(Objects.requireNonNull(currencyResponse.block()).getInfo().getQuote()));
+                    amount * Long.parseLong(currencyResponse.block().getInfo().getQuote()));
         }
 
         PaymentObject paymentObject = new PaymentObject(order.getOrderNumber(),
@@ -53,11 +53,7 @@ public class TransactionServerImpl implements TransactionServer {
 
 
 
-    @Override
-    public void consumerFromOrder(Order order) {
-        System.out.println(order);
 
-    }
 
 
 }

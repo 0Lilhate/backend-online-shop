@@ -11,7 +11,7 @@ import org.springframework.stereotype.Service;
 @Slf4j
 @Service
 @AllArgsConstructor
-public class KafkaProducerServiceImpl implements KafkaProducerService{
+public class TransactionServiceImpl implements TransactionrService {
 
 //    private final String topicTransaction = "transaction";
     private final OrderRepository orderRepository;

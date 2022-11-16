@@ -2,7 +2,7 @@ package com.example.orderservice.rest;
 
 import com.example.orderservice.domain.Order;
 import com.example.orderservice.rest.dto.OrderDto;
-import com.example.orderservice.service.KafkaProducerService;
+import com.example.orderservice.service.TransactionrService;
 import lombok.val;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
@@ -13,13 +13,11 @@ import org.springframework.security.core.authority.SimpleGrantedAuthority;
 import org.springframework.test.context.ActiveProfiles;
 import org.springframework.test.context.junit.jupiter.SpringExtension;
 import org.springframework.test.web.reactive.server.WebTestClient;
-import reactor.core.publisher.Mono;
 
 import java.util.Collections;
 import java.util.UUID;
 
 import static org.assertj.core.api.Assertions.assertThat;
-import static org.junit.jupiter.api.Assertions.*;
 import static org.mockito.ArgumentMatchers.any;
 import static org.mockito.Mockito.when;
 import static org.springframework.security.test.web.reactive.server.SecurityMockServerConfigurers.csrf;
@@ -37,7 +35,7 @@ class PaymentResourceTest {
     private WebTestClient webTestClient;
 
     @MockBean
-    private KafkaProducerService kafkaProducerService;
+    private TransactionrService transactionrService;
 
     @Test
     void makePayment() {
@@ -49,7 +47,7 @@ class PaymentResourceTest {
         order.setId(1L);
         order.setClothOrders(Collections.emptyList());
 
-        when(kafkaProducerService.transactionTopic(any())).thenReturn(order);
+        when(transactionrService.transactionTopic(any())).thenReturn(order);
 
 
         webTestClient.mutateWith(mockOpaqueToken().authorities(new SimpleGrantedAuthority("admin")))
