@@ -4,14 +4,17 @@ import com.example.transactionservice.service.TransactionServer;
 import com.stripe.model.Charge;
 import lombok.AllArgsConstructor;
 import lombok.val;
+
 import org.springframework.http.HttpHeaders;
 
-import org.springframework.http.server.reactive.ServerHttpRequest;
+
+import org.springframework.http.HttpRequest;
 import org.springframework.security.core.context.SecurityContextHolder;
 import org.springframework.security.oauth2.core.OAuth2AccessToken;
 import org.springframework.security.oauth2.server.resource.authentication.AbstractOAuth2TokenAuthenticationToken;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestHeader;
 import org.springframework.web.bind.annotation.RestController;
 import reactor.core.publisher.Mono;
 
@@ -25,22 +28,25 @@ public class TransactionOrderController {
     private final TransactionServer transactionServer;
 
     @PostMapping("/api/charge/{email}")
-    public Mono<Charge> startTransaction(@PathVariable(name = "email") String email, ServerHttpRequest request){
+    public Charge startTransaction(@PathVariable(name = "email") String email, @RequestHeader HttpHeaders headers){
 
-        HttpHeaders httpHeaders = request.getHeaders();
+        val authToken = SecurityContextHolder.getContext().getAuthentication();
 
-        String token = httpHeaders.get("token").toString();
+//        HttpHeaders httpHeaders = request.getHeaders();
 
-        CompletableFuture<Charge> future = CompletableFuture.supplyAsync(
-                ()->{
-                    try {
-                        return transactionServer.charge(email,token);
-                    } catch (Exception e) {
-                        throw new RuntimeException(e);
-                    }
-                });
+//        String token = request.getHeaders().get("token").toString();
 
-        return Mono.fromFuture(future);
+//        String token = request.getHeaders("token").toString();
+        String token = headers.get("token").toString();
+
+
+        try {
+            return transactionServer.charge(email,token);
+        } catch (Exception e) {
+            throw new RuntimeException(e);
+        }
+
+
 
     }
 }

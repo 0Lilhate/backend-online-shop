@@ -17,9 +17,15 @@ public class ConvertCurrencyImpl implements ConvertCurrency{
 
     @Override
     @CacheEvict(value = "convert", key = "{#to,#from}")
-    public Mono<CurrencyResponse> convertCurrency(String to, String from, String amount) {
+    public CurrencyResponse convertCurrency(String to, String from, String amount) {
         return requestCurrency.getConvertCurrency(to,from,amount);
     }
+
+//    @Override
+//    @CacheEvict(value = "convert", key = "{#to,#from}")
+//    public Mono<CurrencyResponse> convertCurrency(String to, String from, String amount) {
+//        return requestCurrency.getConvertCurrency(to,from,amount);
+//    }
 
     @CacheEvict(value = "convert", allEntries = true)
     @Scheduled(cron = "0 0 */8 * * ?")

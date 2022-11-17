@@ -33,13 +33,13 @@ public class TransactionServerImpl implements TransactionServer {
         Order order = orderTransactionClient.getOrderInTransaction(email);
         Long amount = OrderUtil.calculateOrderAmountInCents(order);
 
-        Mono<CurrencyResponse> currencyResponse = convertCurrency.convertCurrency("USD", "RUB", amount.toString());
+        CurrencyResponse currencyResponse = convertCurrency.convertCurrency("USD", "RUB", amount.toString());
 
         Charge charge = new Charge();
 
         if(token!=null){
             charge = stripeClient.chargeNewCard(token,
-                    amount * Long.parseLong(currencyResponse.block().getInfo().getQuote()));
+                    amount * Double.parseDouble(currencyResponse.getInfo().getQuote()));
         }
 
         PaymentObject paymentObject = new PaymentObject(order.getOrderNumber(),

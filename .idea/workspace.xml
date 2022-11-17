@@ -5,8 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="83b669b7-b04c-434f-8e34-d95db470b248" name="Changes" comment="keycloak Second">
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/c0bf8e20-8ac0-41b4-be2b-bc788f1b9a16.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/c0bf8e20-8ac0-41b4-be2b-bc788f1b9a16/storage_v2/_src_/database/Clothes.KGTflg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/c0bf8e20-8ac0-41b4-be2b-bc788f1b9a16/storage_v2/_src_/database/Clothes.KGTflg/schema/information_schema.FNRwLQ.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/c0bf8e20-8ac0-41b4-be2b-bc788f1b9a16/storage_v2/_src_/database/Clothes.KGTflg/schema/pg_catalog.0S1ZNQ.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/c0bf8e20-8ac0-41b4-be2b-bc788f1b9a16/storage_v2/_src_/database/Clothes.KGTflg/schema/public.abK9xQ.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/ecb747f6-8f90-4385-be6f-91b39f8af308.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/ecb747f6-8f90-4385-be6f-91b39f8af308.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -80,7 +84,7 @@
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
     "jdk.selected.JAVA_MODULE": "corretto-17",
-    "last_opened_file_path": "C:/D/lesson/Spring/Homework/Online-shop/catalog-server",
+    "last_opened_file_path": "C:/D/lesson/Spring/Homework/Online-shop",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -90,7 +94,7 @@
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",
     "settings.editor.selected.configurable": "preferences.pluginManager",
-    "spring.configuration.checksum": "85a16dc2c6c1355a12826573d26d295d"
+    "spring.configuration.checksum": "1d0c72822962832ca7e5bbef07339db4"
   },
   "keyToStringList": {
     "DatabaseDriversLRU": [
@@ -357,7 +361,8 @@
       <workItem from="1668417210558" duration="1862000" />
       <workItem from="1668498173777" duration="4724000" />
       <workItem from="1668525830097" duration="14356000" />
-      <workItem from="1668606100560" duration="20044000" />
+      <workItem from="1668606100560" duration="25057000" />
+      <workItem from="1668692652922" duration="600000" />
     </task>
     <task id="LOCAL-00001" summary="kafka first">
       <created>1667063754248</created>
@@ -445,11 +450,6 @@
           <option name="timeStamp" value="6" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/order-service/src/main/java/com/example/orderservice/rest/PaymentResource.java</url>
-          <line>22</line>
-          <option name="timeStamp" value="8" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/catalog-server/src/main/java/com/example/catalogserver/rest/ClotheRestController.java</url>
           <line>66</line>
           <option name="timeStamp" value="16" />
@@ -520,11 +520,6 @@
           <option name="timeStamp" value="47" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/transaction-service/src/main/java/com/example/transactionservice/service/TransactionServerImpl.java</url>
-          <line>45</line>
-          <option name="timeStamp" value="53" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/transaction-service/src/test/java/com/example/transactionservice/service/TransactionServerImplTest.java</url>
           <line>96</line>
           <option name="timeStamp" value="56" />
@@ -538,6 +533,26 @@
           <url>file://$PROJECT_DIR$/transaction-service/src/main/java/com/example/transactionservice/component/OAuth2FeignRequestInterceptor.java</url>
           <line>21</line>
           <option name="timeStamp" value="62" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/transaction-service/src/main/java/com/example/transactionservice/service/TransactionServerImpl.java</url>
+          <line>32</line>
+          <option name="timeStamp" value="69" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/order-service/src/main/java/com/example/orderservice/rest/PaymentResource.java</url>
+          <line>18</line>
+          <option name="timeStamp" value="70" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/transaction-service/src/main/java/com/example/transactionservice/service/TransactionServerImpl.java</url>
+          <line>37</line>
+          <option name="timeStamp" value="72" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/transaction-service/src/main/java/com/example/transactionservice/rest/TransactionOrderController.java</url>
+          <line>39</line>
+          <option name="timeStamp" value="73" />
         </line-breakpoint>
         <breakpoint enabled="true" type="java-exception">
           <properties class="java.net.UnknownHostException" package="java.net" />
