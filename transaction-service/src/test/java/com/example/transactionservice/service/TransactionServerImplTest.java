@@ -134,7 +134,7 @@ class TransactionServerImplTest {
         info.setQuote("59");
         info.setTimestamp("11");
         currencyResponse.setInfo(info);
-        when(convertCurrency.convertCurrency(any(),any(),any())).thenReturn(Mono.just(currencyResponse));
+        when(convertCurrency.convertCurrency(any(),any(),any())).thenReturn(currencyResponse);
         when(stripeClient.chargeNewCard("token", 1999L)).thenReturn(new Charge());
 
         transactionServer.charge("daniil", "token");

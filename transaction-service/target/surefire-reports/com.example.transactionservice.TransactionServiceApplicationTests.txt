@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: com.example.transactionservice.TransactionServiceApplicationTests
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 6.42 s - in com.example.transactionservice.TransactionServiceApplicationTests
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 2.419 s - in com.example.transactionservice.TransactionServiceApplicationTests

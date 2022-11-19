@@ -1,0 +1,8 @@
+C:\D\lesson\Spring\Homework\Online-shop\image-service\src\main\java\com\example\imageservice\service\ImageService.java
+C:\D\lesson\Spring\Homework\Online-shop\image-service\src\main\java\com\example\imageservice\feign\CatalogRestFein.java
+C:\D\lesson\Spring\Homework\Online-shop\image-service\src\main\java\com\example\imageservice\rest\ImageController.java
+C:\D\lesson\Spring\Homework\Online-shop\image-service\src\main\java\com\example\imageservice\component\OAuth2FeignRequestInterceptor.java
+C:\D\lesson\Spring\Homework\Online-shop\image-service\src\main\java\com\example\imageservice\config\SecurityConfig.java
+C:\D\lesson\Spring\Homework\Online-shop\image-service\src\main\java\com\example\imageservice\service\ImageServiceImpl.java
+C:\D\lesson\Spring\Homework\Online-shop\image-service\src\main\java\com\example\imageservice\ImageServiceApplication.java
+C:\D\lesson\Spring\Homework\Online-shop\image-service\src\main\java\com\example\imageservice\converter\RealmRoleConverter.java

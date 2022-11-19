@@ -1,0 +1,5 @@
+com\example\orderservice\rest\PaymentResourceTest.class
+com\example\orderservice\service\ConvertClothOrderTest.class
+com\example\orderservice\service\OrderServiceImplTest.class
+com\example\orderservice\OrderServiceApplicationTests.class
+com\example\orderservice\rest\OrderRestControllerTest.class

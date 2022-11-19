@@ -1,0 +1,8 @@
+com\example\imageservice\feign\CatalogRestFein.class
+com\example\imageservice\ImageServiceApplication.class
+com\example\imageservice\service\ImageService.class
+com\example\imageservice\component\OAuth2FeignRequestInterceptor.class
+com\example\imageservice\rest\ImageController.class
+com\example\imageservice\converter\RealmRoleConverter.class
+com\example\imageservice\config\SecurityConfig.class
+com\example\imageservice\service\ImageServiceImpl.class

@@ -5,12 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="83b669b7-b04c-434f-8e34-d95db470b248" name="Changes" comment="keycloak Second">
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/c0bf8e20-8ac0-41b4-be2b-bc788f1b9a16.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/c0bf8e20-8ac0-41b4-be2b-bc788f1b9a16/storage_v2/_src_/database/Clothes.KGTflg.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/c0bf8e20-8ac0-41b4-be2b-bc788f1b9a16/storage_v2/_src_/database/Clothes.KGTflg/schema/information_schema.FNRwLQ.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/c0bf8e20-8ac0-41b4-be2b-bc788f1b9a16/storage_v2/_src_/database/Clothes.KGTflg/schema/pg_catalog.0S1ZNQ.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/c0bf8e20-8ac0-41b4-be2b-bc788f1b9a16/storage_v2/_src_/database/Clothes.KGTflg/schema/public.abK9xQ.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/ecb747f6-8f90-4385-be6f-91b39f8af308.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/ecb747f6-8f90-4385-be6f-91b39f8af308.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -110,11 +105,11 @@
       <recent name="domain" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\D\lesson\Spring\Homework\Online-shop\catalog-server" />
-      <recent name="C:\D\lesson\Spring\Homework\Online-shop\image-service\src\main\java\com\example\imageservice" />
-      <recent name="C:\D\lesson\Spring\Homework\Online-shop\transaction-service\src\test\resources" />
-      <recent name="C:\D\lesson\Spring\Homework\Online-shop\transaction-service\src\test" />
-      <recent name="C:\D\lesson\Spring\Homework\Online-shop\order-service\src\test\resources" />
+      <recent name="C:\D\lesson\Spring\Homework\Online-shop" />
+      <recent name="C:\D\lesson\Spring\Homework\Online-shop\transaction-service" />
+      <recent name="C:\D\lesson\Spring\Homework\Online-shop\order-service" />
+      <recent name="C:\D\lesson\Spring\Homework\Online-shop\notification-service" />
+      <recent name="C:\D\lesson\Spring\Homework\Online-shop\image-service" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
@@ -144,7 +139,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.EmailSenderServiceImplTest.sendEmailMessage">
+  <component name="RunManager" selected="JUnit.TransactionServerImplTest">
     <configuration name="EmailSenderServiceImplTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="notification-service" />
       <extension name="coverage">
@@ -300,12 +295,12 @@
       <item itemvalue="JUnit.OrderTransactionClientTest.getOrderInTransaction" />
       <item itemvalue="JUnit.TransactionServerImplTest.charge" />
       <item itemvalue="JUnit.TransactionServerImplTest" />
+      <item itemvalue="Spring Boot.TransactionServiceApplication" />
       <item itemvalue="Spring Boot.OrderServiceApplication" />
       <item itemvalue="Spring Boot.ImageServiceApplication" />
       <item itemvalue="Spring Boot.AuthenticationServerApplication" />
       <item itemvalue="Spring Boot.ApiGatewayServerApplication" />
       <item itemvalue="Spring Boot.NotificationServiceApplication" />
-      <item itemvalue="Spring Boot.TransactionServiceApplication" />
       <item itemvalue="Spring Boot.GatewaySecurityServerApplication" />
       <item itemvalue="Spring Boot.SecurityServerApplication" />
       <item itemvalue="Spring Boot.CatalogServerApplication" />
@@ -313,9 +308,9 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.TransactionServerImplTest" />
         <item itemvalue="JUnit.EmailSenderServiceImplTest.sendEmailMessage" />
         <item itemvalue="JUnit.EmailSenderServiceImplTest" />
-        <item itemvalue="JUnit.TransactionServerImplTest" />
         <item itemvalue="JUnit.TransactionServerImplTest.charge" />
         <item itemvalue="JUnit.OrderTransactionClientTest.getOrderInTransaction" />
       </list>
@@ -362,7 +357,7 @@
       <workItem from="1668498173777" duration="4724000" />
       <workItem from="1668525830097" duration="14356000" />
       <workItem from="1668606100560" duration="25057000" />
-      <workItem from="1668692652922" duration="600000" />
+      <workItem from="1668692652922" duration="18537000" />
     </task>
     <task id="LOCAL-00001" summary="kafka first">
       <created>1667063754248</created>

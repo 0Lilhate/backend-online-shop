@@ -20,7 +20,7 @@ public class Order {
     private Long id;
     @Column(name = "order_number")
     private String orderNumber;
-    @Column(name = "email_user")
+    @Column(name = "email_user", unique = true)
     private String emailUser;
 
     @Column(name = "address")

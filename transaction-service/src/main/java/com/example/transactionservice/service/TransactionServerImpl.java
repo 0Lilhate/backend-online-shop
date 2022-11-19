@@ -37,13 +37,15 @@ public class TransactionServerImpl implements TransactionServer {
 
         Charge charge = new Charge();
 
+        Double usd = Double.parseDouble(currencyResponse.getInfo().getQuote());
+
         if(token!=null){
             charge = stripeClient.chargeNewCard(token,
-                    amount * Double.parseDouble(currencyResponse.getInfo().getQuote()));
+                    amount * usd);
         }
 
         PaymentObject paymentObject = new PaymentObject(order.getOrderNumber(),
-                order.getEmailUser(), order.getAddress(), order.getClothOrders(), amount);
+                order.getEmailUser(), order.getAddress(), order.getClothOrders(), (long) (amount * usd));
         kafkaTemplate.send(AppConstants.NOTIFICATION_TOPIC, paymentObject);
 
 

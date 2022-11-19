@@ -1,0 +1,8 @@
+C:\D\lesson\Spring\Homework\Online-shop\notification-service\src\main\java\com\example\notificationservice\NotificationServiceApplication.java
+C:\D\lesson\Spring\Homework\Online-shop\notification-service\src\main\java\com\example\notificationservice\model\ClothOrder.java
+C:\D\lesson\Spring\Homework\Online-shop\notification-service\src\main\java\com\example\notificationservice\service\EmailSenderService.java
+C:\D\lesson\Spring\Homework\Online-shop\notification-service\src\main\java\com\example\notificationservice\config\KafkaJsonConfigConsumer.java
+C:\D\lesson\Spring\Homework\Online-shop\notification-service\src\main\java\com\example\notificationservice\service\EmailSenderServiceImpl.java
+C:\D\lesson\Spring\Homework\Online-shop\notification-service\src\main\java\com\example\notificationservice\common\AppConstants.java
+C:\D\lesson\Spring\Homework\Online-shop\notification-service\src\main\java\com\example\notificationservice\model\Order.java
+C:\D\lesson\Spring\Homework\Online-shop\notification-service\src\main\java\com\example\notificationservice\model\PaymentObject.java

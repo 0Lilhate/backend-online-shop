@@ -1,4 +1,5 @@
 com\example\transactionservice\model\PaymentObject.class
+com\example\transactionservice\component\OAuth2FeignRequestInterceptor.class
 com\example\transactionservice\TransactionServiceApplication.class
 com\example\transactionservice\model\CurrencyResponse$Info.class
 com\example\transactionservice\component\RequestCurrency.class
@@ -13,5 +14,7 @@ com\example\transactionservice\model\Order.class
 com\example\transactionservice\config\OrderUtil.class
 com\example\transactionservice\service\ConvertCurrency.class
 com\example\transactionservice\service\TransactionServerImpl.class
+com\example\transactionservice\config\SecurityConfig.class
+com\example\transactionservice\converter\KeycloakRealmRoleConverter.class
 com\example\transactionservice\common\AppConstants.class
 com\example\transactionservice\model\ClothOrder.class
