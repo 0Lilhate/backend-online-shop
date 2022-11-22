@@ -30,7 +30,7 @@ public class ImageController {
 
     @DeleteMapping("/file/delete/{id}/{fileName}")
     public ResponseEntity<String> deleteFile(@PathVariable(value = "fileName") String filName,
-                                             @PathVariable(value = "id") Long id){
+                                             @PathVariable(value = "id") Long id) throws IOException {
 
         return new ResponseEntity<>(imageService.deleteFile(id, filName), HttpStatus.OK);
     }

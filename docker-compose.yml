@@ -1,5 +1,15 @@
 version: "3"
 services:
+  ## Sftp Compose Config
+  sftp-server:
+    container_name: sftp-server
+    image: atmoz/sftp
+    volumes:
+      - ../image/upload:/home/foo/upload
+    ports:
+      - "2222:22"
+    command: foo:pass:1001
+
   ## MySQL Docker Compose Config
   postgres-order:
     container_name: postgres-order
@@ -145,7 +155,7 @@ services:
     environment:
       - SPRING_PROFILES_ACTIVE=docker
     depends_on:
-      - kafka
+      - broker
       - eureka-dockerfile
       - apigateway-dockerfile
 
@@ -159,7 +169,7 @@ services:
     depends_on:
       - eureka-dockerfile
       - apigateway-dockerfile
-      - kafka
+      - broker
 
   ## Image-Service Docker Compose Config
   image-dockerfile:

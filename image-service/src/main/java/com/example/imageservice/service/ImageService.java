@@ -8,6 +8,6 @@ public interface ImageService {
     String uploadFile(MultipartFile file, Long id) throws IOException;
     byte[] downloadFile(String fileName, Long id) throws IOException;
 
-    String deleteFile(Long id,String fileName);
+    String deleteFile(Long id,String fileName) throws IOException;
 
 }
